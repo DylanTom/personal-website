@@ -6,3 +6,5 @@ see more pops up a modal with a more indepth description of the project
 
 spotify api
 dark mode?
+
+fix drop shadow
