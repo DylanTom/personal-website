@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ProjectCard from "./ProjectCard";
 
 import { projects } from "../data/projects";
@@ -20,6 +20,7 @@ function Portfolio() {
 						reflection={x.reflection}
 						start={x.start}
 						end={x.end}
+						key={x.key}
 					/>
 				)}
 			</div>

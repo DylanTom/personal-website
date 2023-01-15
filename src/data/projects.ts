@@ -6,7 +6,8 @@ interface TProject {
 	summary: string;
 	reflection: string;
 	start: string;
-	end: string
+	end: string;
+	key: string
 }
 
 export type { TProject };
@@ -20,7 +21,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "August 2022",
-		end: "December 2022"
+		end: "December 2022",
+		key: "11"
 	},
 	{
 		title: "EDGI",
@@ -30,7 +32,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "August 2022",
-		end: "December 2022"
+		end: "December 2022",
+		key: "10"
 	},
 	{
 		title: "Pediatric Skeletal Muscle Cell Atlas",
@@ -40,7 +43,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "July 2022",
-		end: "Present"
+		end: "Present",
+		key: "9"
 	},
 	{
 		title: "Roomservations",
@@ -50,7 +54,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "April 2022",
-		end: "August 2022"
+		end: "August 2022",
+		key: "8"
 	},
 	{
 		title: "Farmworker's Justice",
@@ -60,7 +65,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "January 2022",
-		end: "May 2022"
+		end: "May 2022",
+		key: "6"
 	},
 	{
 		title: "Alien Invaders",
@@ -70,7 +76,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "November 2021",
-		end: "December 2021"
+		end: "December 2021",
+		key: "5"
 	},
 	{
 		title: "Cars 4: Not a Pixar Movie",
@@ -80,7 +87,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "September 2021",
-		end: "December 2021"
+		end: "December 2021",
+		key: "3"
 	},
 	{
 		title: "Regeneron Reserarch",
@@ -89,8 +97,9 @@ let projects = [
 		link: "https://github.com/DylanTom/InterpretationLoF",
 		summary: "",
 		reflection: "",
-		start: "September 2021",
-		end: "December 2021"
+		start: "September 2020",
+		end: "December 2020",
+		key: "1"
 	},
 	{
 		title: "Hearthstone AI",
@@ -100,7 +109,8 @@ let projects = [
 		summary: "",
 		reflection: "",
 		start: "May 2020",
-		end: "August 2020"
+		end: "August 2020",
+		key: "0"
 	}
 ]
 
@@ -113,7 +123,8 @@ let personal = [
 		summary: "",
 		reflection: "",
 		start: "January 2023",
-		end: "January 2023"
+		end: "January 2023",
+		key: "12"
 	},
 	{
 		title: "v3.0",
@@ -123,7 +134,8 @@ let personal = [
 		summary: "",
 		reflection: "",
 		start: "June 2022",
-		end: "August 2022"
+		end: "August 2022",
+		key: "7"
 	},
 	{
 		title: "v2.0",
@@ -133,7 +145,8 @@ let personal = [
 		summary: "",
 		reflection: "",
 		start: "December 2021",
-		end: "December 2021"
+		end: "December 2021",
+		key: "4"
 	},
 	{
 		title: "v1.0",
@@ -143,7 +156,8 @@ let personal = [
 		summary: "",
 		reflection: "",
 		start: "June 2021",
-		end: "August 2021"
+		end: "August 2021",
+		key: "2"
 	}
 ]
 

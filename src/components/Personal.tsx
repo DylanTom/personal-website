@@ -20,6 +20,7 @@ function Personal() {
 						reflection={x.reflection}
 						start={x.start}
 						end={x.end}
+						key={x.key}
 					/>
 				)}
 			</div>

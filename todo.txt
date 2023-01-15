@@ -8,3 +8,7 @@ spotify api
 dark mode?
 
 fix drop shadow
+
+key prop error
+
+fix image resolution and scaling
