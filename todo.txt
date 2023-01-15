@@ -1,0 +1,8 @@
+grid feature allows user to dynamically change number of projects shown at a single time
+when user hover, fades away content
+brings up github logo and see more (...)
+github links to appropriate repo
+see more pops up a modal with a more indepth description of the project
+
+spotify api
+dark mode?
