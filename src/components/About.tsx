@@ -4,7 +4,7 @@ import me from "/assets/me.png";
 function About () {
 	return (
 		<div className="p-6">
-			To be added
+			Test
 			{/* Who is Dylan?
 
 			I wasn't always a computer science major. My background was in biology until 2020 where I learned I had a passion for CS.
