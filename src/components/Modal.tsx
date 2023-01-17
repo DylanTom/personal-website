@@ -13,9 +13,17 @@ function Modal(props: TModal) {
 	}
 
 	return (
-		<div>
-			<div>I'm Open</div>
-			<button onClick={() => props.setIsOpen(false)}>Close Me</button>
+		<div className="flex flex-row">
+			<div>
+				{props.data.start} - {props.data.end}
+			</div>
+			<div>
+				{props.data.summary}
+			</div>
+			<div>
+				{props.data.reflection}
+			</div>
+			<button onClick={() => props.setIsOpen(false)} className="border-2">Close Me</button>
 		</div>
 	);
 };

@@ -1,7 +1,7 @@
 grid feature allows user to dynamically change number of projects shown at a single time
-when user hover, fades away content
-brings up github logo and see more (...)
-github links to appropriate repo
+when user hover, fades away content DONE
+brings up github logo and see more (...) DONE
+github links to appropriate repo DONE
 see more pops up a modal with a more indepth description of the project
 
 spotify api
@@ -12,3 +12,6 @@ fix drop shadow
 key prop error
 
 fix image resolution and scaling
+fix hover when theres one box
+visual bug when you hover two simultaneously
+fix mobile responsiveness

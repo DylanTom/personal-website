@@ -15,7 +15,7 @@ function Nav() {
 	return (
 		<div className="flex w-screen p-6 justify-between">
 			<div className="flex text-3xl text-teal-500">
-				<b>Dylan Tom</b>
+				<NavLink to="/"><b>Dylan Tom</b></NavLink>
 			</div>
 			<div className="flex">
 				<ul className="flex flex-row">
